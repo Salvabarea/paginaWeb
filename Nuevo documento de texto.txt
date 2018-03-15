@@ -1,1 +1,0 @@
-		<EMBED SRC="images/canzone.mp3" AUTOSTART="true" HIDDEN="true">
