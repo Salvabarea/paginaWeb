@@ -16,7 +16,7 @@
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
 		<script type = "text/javascript">
-			function enviar () {alert ("hola")}
+			function enviar () {document.formulario1.submit();}
 		</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
@@ -57,7 +57,7 @@
 						<h2>¡Mándanos tu receta!</h2>
 						<span class="byline">Mediante el formulario de abajo podrás mandarnos tus recetas</span>
 					</header>
-					<form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" targer="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="post">
+					<form name="formulario1" id="formulario1" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" targer="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="post">
     					<div>
         					<label for="nombre">Nombre:</label>
         					<input type="text" id="nombre" name="usuario_nombre" />
