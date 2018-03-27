@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Linear by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 	<head>
-		<title>Manda tu receta</title>
+		<title>Recetas - ¡Recetas, Recetas!</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -15,14 +10,6 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
-		<script type = "text/javascript">
-			// Enviar en JS: function enviar () 
-			//{
-				//document.formulario1.submit();
-				//alert(document.getElementById("nombre").value);
-				//document.getElementById("formulario1").submit();
-			//}
-		</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -38,8 +25,8 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Inicio</a></li>
-						<li><a href="recetario.html">Recetas</a></li>
-						<li class="active"><a href="tureceta.html">Manda tu receta</a></li>
+						<li class="active"><a href="recetario.html">Recetas</a></li>
+						<li><a href="tureceta.html">Manda tu receta</a></li>
 						<li><a href="sobrenosotros.html">Sobre nosotros</a></li>
 					</ul>
 				</nav>
@@ -48,7 +35,7 @@
 				
 				<!-- Logo -->
 				<div id="logo">
-					<h1><a href="#">Manda tu receta</a></h1>
+					<h1><a href="recetasceliacos.html">Sección recetas</a></h1>
 				</div>
 			</div>
 		</div>
@@ -56,31 +43,73 @@
 
 	<!-- Main -->
 		<div id="main">
-			<div id="content" class="container">
-				<section>
-					<header>
-						<h2>¡Mándanos tu receta!</h2>
-						<span class="byline">Mediante el formulario de abajo podrás mandarnos tus recetas</span>
-					</header>
-					<form name="formulario1" id="formulario1" action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" targer="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="post">
-    					<div>
-        					<label for="nombre">Nombre:</label>
-        					<input type="text" id="nombre" name="usuario_nombre" />
-    					</div>
-					    <div>
-					        <label for="mail">E-mail:</label>
-					        <input type="email" id="mail" name="usuario_email" />
-					    </div>
-					    <div>
-					        <label for="msg">Receta:</label>
-					        <textarea id="receta" name="ususario_receta"></textarea>
-					    </div>
-					    <div class="button2">
-					        <button type="submit">¡Mandar receta!</button><!-- <a href="javascript:enviar();">Manda tu receta</a> Botón de mandar formulario en JS -->
+			<div class="container">
+				<div class="row">
 
-					    </div>
-					</form>
-				</section>
+					<!-- Content -->
+					<div id="content" class="8u skel-cell-important">
+						<section>
+							<header>
+								<h2>Título receta</h2>
+							</header>
+							<div class="row">
+								<section class="6u">
+									<p><strong>Ingredientes:</strong></p>
+									<div style="float: left; width: 45%">  
+   									 <ol style="list-style-type:circle">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ol>
+ 									</div>
+									<div style="float: right; width: 45%">
+									<ol style="list-style-type:circle">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ol>
+									</div>
+								</section>
+								<section>
+									<h2><strong>Pasos a seguir:</strong></h2>
+									<ol style="list-style-type:decimal">
+
+										<li></li>
+
+										<li></li>
+
+										<li></li>
+
+										<li></li>
+										<br />
+										<img src="images/picXX.jpg" alt="">
+								</section>
+							</div>
+						</section>
+					</div>
+
+					<!-- Sidebar -->
+					<div id="sidebar" class="4u">
+						<section>
+							<header>
+								<h2>Temática</h2>
+							</header>
+							<div class="row">
+								<section class="6u">
+									<ul class="default">
+										<li><a href="recetasrecetas.html">¡Recetas, recetas!</a></li>
+										<li><a href="recetasvegetarianas.html">Recetas vegetarianas</a></li>
+										<li><a href="recetasveganas.html">Recetas veganas </a></li>
+										<li><a href="recetasceliacos.html">Recetas para celíacos</a></li>
+									</ul>
+								</section>
+							</div>
+						</section>
+					</div>
+				</div>
 			</div>
 		</div>
 	<!-- /Main -->
