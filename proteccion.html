@@ -1,18 +1,29 @@
-	<body>
-	<?php 
-	$password = "e10adc3949ba59abbe56e057f20f883e";
-	if (md5($_POST['password']) != $password) { 
-	?>
-	<h2>Logueate</h2>
-	<form name="form" method="post" action="">
-	<input type="password" name="password"><br>
-	<input type="submit" value="Login"></form>
-	<?php 
-	}else{
-	?>
-	Contenido protegido
-	<?php 
-	} 
-	?>
-</body>
+<HTML>
+<BODY>
+<form>
+<input type="text" name="text2">
+</p>
+<p> Contraseña:
+<input type="password" name="text1">
+<input type="button" value="Check In" name="Submit" onclick=javascript:validate(text2.value,"",t ext1.value,"LenguajeMarca") >
+</p>
 
+</form>
+<script language = "javascript">
+
+function validate(text1,text2,text3,text4)
+{
+if (text1==text2 && text3==text4)
+load('success.htm');
+else 
+{
+load('failure.htm');
+}
+}
+function load(url)
+{
+location.href=url;
+}
+</script>
+<BODY>
+</HTML>
