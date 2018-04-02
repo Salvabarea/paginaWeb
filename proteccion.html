@@ -1,8 +1,6 @@
 <HTML>
 <BODY>
 <form>
-<input type="text" name="text2">
-</p>
 <p> Contraseña:
 <input type="password" name="text1">
 <input type="button" value="Check In" name="Submit" onclick=javascript:validate(text2.value,"",t ext1.value,"LenguajeMarca") >
@@ -14,7 +12,7 @@
 function validate(text1,text2,text3,text4)
 {
 if (text1==text2 && text3==text4)
-load('success.htm');
+load('EE/inicioEE.html');
 else 
 {
 load('failure.htm');
